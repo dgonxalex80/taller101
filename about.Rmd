@@ -1,0 +1,50 @@
+---
+title: "Informe"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,comment = NA)
+
+# importar datos
+library(readr)
+titanic <- read_delim("data/titanic3.csv", delim = ";", escape_double = FALSE, col_types = cols(age = col_number(), fare = col_number()), trim_ws = TRUE)
+```
+
+<br/><br/>
+
+# Análisis de variables cualitativas
+
+
+</br></br>
+```{r}
+# visualizar la tada
+str(titanic)
+```
+
+
+```{r}
+# analisis de las variables cualitativas
+t= table(titanic$survived)
+prop.table(t)
+```
+</br></br>
+
+# Análisis de variables cuantitativas
+
+
+```{r}
+# analisis de una variable cuantitativa
+summary(titanic$age)
+```
+
+
+```{r}
+# install.packages("summarytools")
+library(summarytools)
+summarytools::descr(titanic$age)
+```
+
+
+
+
+

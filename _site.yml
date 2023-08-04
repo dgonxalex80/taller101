@@ -1,0 +1,9 @@
+name: " "
+output_dir: "docs"
+navbar:
+  title: "Taller TITANIC"
+  left:
+    - text: "Enunciado"
+      href: index.html
+    - text: "Solución"
+      href: about.html

@@ -1,0 +1,72 @@
+---
+title: "Enunciado"
+---
+
+</br></br>
+
+# **Introducción**
+
+![](img/titanic.png)
+</br></br>
+
+El Titanic fue un transatlántico británico operado por la White Star Line que se hundió en el Océano Atlántico Norte en la madrugada del 15 de abril de 1912, después de chocar contra un iceberg durante su viaje inaugural de Southampton a Nueva York City. De los 2.224 pasajeros y tripulantes a bordo, más de 1.500 murieron, lo que lo convierte en uno de los naufragios más mortíferos de la historia en términos de pérdida de vidas humanas.
+
+</br>
+
+El Titanic fue diseñado para ser el barco más grande y lujoso del mundo, y fue construido con los últimos avances tecnológicos de la época. Sin embargo, no tenía suficientes botes salvavidas para todos a bordo, lo que resultó en una gran pérdida de vidas.
+
+</br>
+
+El hundimiento del Titanic fue un evento devastador que conmocionó al mundo. Fue un recordatorio de la fragilidad de la vida y la importancia de la seguridad marítima. También llevó a una serie de reformas en las regulaciones marítimas, que ayudaron a prevenir futuros desastres.
+
+</br>
+
+El Titanic es uno de los desastres marítimos más famosos de la historia. Ha sido objeto de numerosos libros, películas, documentales y otros medios. El barco sigue siendo un símbolo de la grandeza y el peligro de la era de los transatlánticos.
+
+</br>
+
+El hundimiento del Titanic fue un evento trágico que conmocionó al mundo. Para aprender más sobre este evento y los factores que contribuyeron a su hundimiento, es importante analizar los datos disponibles. El análisis de datos puede ayudarnos a comprender mejor el evento, identificar patrones y tendencias, y tomar decisiones informadas sobre cómo prevenir futuros desastres.
+
+</br></br>
+
+# **Objetivo**
+
+
+El objetivo de este taller es aprender a realizar un análisis descriptivo de una base de datos usando R. El taller se dividirá en tres partes:
+
+* Importación de los datos
+* Construcción y análisis de los indicadores para las variables cualitativas
+* Construcción y análisis de los indicadores para las variables cuantitativas
+
+</br></br>
+
+# **Solicitudes**
+
+Ralizar un análisis descriptivo de una base de datos usando R. El taller se dividirá en tres partes:
+
+* Importación de los datos
+* Construcción de indicadores para las variables cualitativas
+* Construcción de indicadores para las variables cuantitativas
+* Análisis de los resultados
+
+</br></br>
+
+# **Descripción de los datos**
+
+* **PassengerId**: Identificador del pasajero.
+* **Survived**: Indica si el pasajero sobrevivió al hundimiento del Titanic (1 = sí, 0 = no).
+* **Pclass**: Clase de cabina del pasajero (1 = primera clase, 2 = segunda clase, 3 = tercera clase).
+* **Name**: Nombre del pasajero.
+* **Sex**: Sexo del pasajero (male = hombre, female = mujer).
+* **Age**: Edad del pasajero.
+* **SibSp**: Número de hermanos o hermanas a bordo del Titanic.
+* **Parch**: Número de padres o hijos a bordo del Titanic.
+* **Ticket**: Número del boleto del pasajero.
+* **Fare**: Tarifa del boleto del pasajero.
+* **Cabin**: Número de la cabina del pasajero.
+* **Embarked**: Puerto de embarque del pasajero (C = Cherbourg, Q = Queenstown, S = Southampton).
+
+</br></br>
+
+
+</br></br>
